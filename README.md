@@ -1,6 +1,6 @@
 # Custom Token Smart Contract & Blockchain Project
 
-This project was developed as part of the QF4211 / DSE4211 Digital Currencies module at NUS. It combines a hands-on implementation of a blockchain and a custom ERC-20-style token smart contract.
+This project was developed as part of the QF4211 / DSE4211 Digital Currencies module at NUS. It combines a hands-on implementation of a blockchain and a custom ERC-20-style token smart contract. The results of the coin created and launched on Ethernet is in the file titled 'confirmation ss'.
 
 ## What I Built
 
