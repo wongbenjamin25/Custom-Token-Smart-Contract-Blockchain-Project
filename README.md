@@ -40,6 +40,7 @@ This project was developed as part of the QF4211 / DSE4211 Digital Currencies mo
 - Bridged blockchain backend logic with frontend interactions for a full-stack decentralized app.
 
 ## Project Structure
+
 Custom-Token-Smart-Contract-Blockchain-Project/
 │
 ├── blockchain/                  # Python-based blockchain implementation
@@ -67,4 +68,41 @@ Custom-Token-Smart-Contract-Blockchain-Project/
 │   └── package.json             # Node.js project manifest
 │
 ├── .gitignore                   # Ignore compiled files, venvs, etc.
-├── README.md                    # Project documentation
+└── README.md                    # Project documentation
+
+## How to Run
+
+You can set up and run each component locally:
+
+### Blockchain (Python)
+```bash
+cd blockchain
+pip install -r requirements.txt
+python node.py
+
+Smart Contract (Solidity + Hardhat)
+
+cd smart-contract
+npm install
+npx hardhat compile
+npx hardhat test
+npx hardhat run scripts/deploy.js
+
+Flask UI
+
+cd flask-ui
+python app.py
+
+Author
+
+Benjamin Wong (@wongbenjamin25)
+National University of Singapore – Data Science & Quantitative Finance
+
+---
+
+Let me know if you want to:
+- Add live demo links
+- Add badges (e.g., license, technologies)
+- Link it to your resume or portfolio
+
+Happy to help!
