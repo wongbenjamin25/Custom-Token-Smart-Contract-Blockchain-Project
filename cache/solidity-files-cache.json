@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/benwong/Documents/Y3S2/dse4211/qf4211-dse4211-assignment-wongbenjamin25-main/contracts/Token.sol": {
+      "lastModificationDate": 1739890898118,
+      "contentHash": "6ef215cdac6cc688c26304865d20be36",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    }
+  }
+}
